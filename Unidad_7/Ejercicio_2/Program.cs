@@ -13,7 +13,7 @@ class Program
 
         int[] numeros = new int[10];
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++)    // en este array yo escribo en el, en cada posicion escribo un valor
         {
             Console.WriteLine("Ingrese un numero: ");
             num = int.Parse(Console.ReadLine());
@@ -25,7 +25,7 @@ class Program
         promedio = acumulador / 10;     // saco promedio de los elementos
 
 
-        for (int i = 0; i < 10; i++)    // aca volvermos a recorrer el array 
+        for (int i = 0; i < 10; i++)    // aca volvermos a recorrer el array en modolo lectura -> leo cada posicion
         {       
             if (numeros[i] > promedio)  // en cada vuelta comparo el valor que esta guardado en esa posicion, si es mayor al promedio, entro al IF
             {
