@@ -9,7 +9,7 @@ class Program
             El programa debe pedir el valor de "n" (número de términos) y luego mostrar la secuencia hasta ese número.
         */
 
-        int numero, A = 0, B = 1, acumulador = 0;
+        int numero, A = 0, B = 1;
 
         Console.WriteLine("Ingresar un numero para mostrar Fibonacci hasta ese numero o anterior a el: ");
         numero = int.Parse(Console.ReadLine());
