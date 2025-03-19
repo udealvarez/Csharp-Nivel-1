@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+
         // EJERCICIO 6
 
         /*
@@ -29,6 +30,7 @@ class Program
         Console.WriteLine("La cantidad de numeros iguales a CERO es " + cero);
         Console.WriteLine("La cantidad de numeros POSITIVOS es " + positivos);
         Console.WriteLine("La cantidad de numeros NEGATIVOS es " + negativos);
+
 
     }
 }
