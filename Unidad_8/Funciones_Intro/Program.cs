@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)     // FUNCION PRINCIPAL  - >  MAIN
     {
-        // FUNCIONES -> ES UN BLOQUE DE CODIGO, MINI PROGRAMA
+         // FUNCIONES -> ES UN BLOQUE DE CODIGO, MINI PROGRAMA
 
         // Partes de la funcion
             // CABECERA
@@ -32,4 +32,6 @@ class Program
         return nro;
 
     }
+    
+
 }
